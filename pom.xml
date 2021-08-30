@@ -15,9 +15,31 @@
   <artifactId>common-library</artifactId>
 
   <dependencies>
+    <!-- Abelfgdeveloper Dependencies -->
     <dependency>
       <groupId>es.abelfgdeveloper.common.library</groupId>
       <artifactId>dto-library</artifactId>
     </dependency>
+
+    <!-- Spring Dependencies -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+    </dependency>
+
+    <!-- Third Party Dependencies -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+
   </dependencies>
 </project>
