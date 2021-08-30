@@ -6,7 +6,7 @@ public class NotFoundException extends CommonException {
 
   private static final long serialVersionUID = -6476477729035784763L;
 
-  private static final int STATUS = 400;
+  private static final int STATUS = 404;
 
   protected NotFoundException(String message) {
     super(STATUS, message);
